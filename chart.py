@@ -38,3 +38,7 @@ st.altair_chart(c, use_container_width=True)
 st.title('MAP With Streamlit')
 df = pd.DataFrame(np.random.randn(500, 2) / [50, 50] + [14.716677,-17.467686],columns=['lat', 'lon'])
 st.map(df)
+st.balloons()
+st.progress(100)
+with st.spinner('Wait for it...'):    
+    time.sleep(10)
