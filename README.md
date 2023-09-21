@@ -4,7 +4,7 @@
 ## .**I created several files in order to break down the different functions**
 ## . ** alert.py** for alert
 ## .**chart.py** for chart
-## .**main.py** file base we are ML here but I have run this
+## .**main.py** file base we are ML here but I haven't run this
 ## . **sidebar.py** for sidebar and container
 ## . **widget** for widget
 
