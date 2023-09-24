@@ -1,13 +1,9 @@
-
-import streamlit as stst
 import streamlit as st
-import matplotlib.pyplot as plt
-import time
-import pandas as pd
-# import graphviz as graphviz
-st.write("Hello ,Welcome to Streamlit App New")
-st.title ("It 's my first App Streamlit TEST")
+import  pandas as pd
 
+st.write("""
+This is my interface using Streamlite
+         """)
 sepal_height = st.number_input("Enter sepal height")
 sepal_width = st.number_input("Enter sepal width")
 
@@ -27,7 +23,3 @@ if st.button("Predict"):
     st.text(f"[info] Input data as dataframe:\n{df.to_markdown()}")
     
     st.text(f"The iris has been classified as :'{''}' .")
-    st.balloons()
-# prompt = st.chat_input("Say something")
-# if prompt:
-#     st.write(f"User has sent the message following prompt:{prompt}")
